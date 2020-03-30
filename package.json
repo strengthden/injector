@@ -1,0 +1,39 @@
+{
+  "name": "@strengthden/injector",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/strengthden/injector.git"
+  },
+  "version": "0.7.0",
+  "description": "Simple injection pattern for DI",
+  "main": "lib/index.js",
+  "types": "lib/index.d.js",
+  "scripts": {
+    "test": "jest",
+    "watch": "tsc -w",
+    "lint": "tslint '*.ts'",
+    "prepare": "tsc"
+  },
+  "keywords": [
+    "apis",
+    "entities"
+  ],
+  "files": [
+    "lib/**/*"
+  ],
+  "author": "Strengthden",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^25.1.4",
+    "@types/node": "^7.0.5",
+    "@types/uuid": "^7.0.0",
+    "jest": "^25.1.0",
+    "ts-jest": "^25.2.1",
+    "tslint": "^5.5.0",
+    "tslint-config-standard": "^6.0.1",
+    "typescript": "^2.4.2"
+  }
+}

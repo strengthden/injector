@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "target": "es2017",
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "inlineSourceMap": true,
+        "outDir": "./lib",
+        "moduleResolution": "node",
+        "declaration": true,
+        "strict": true,
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "types": [
+            "node"
+        ],
+    },
+    "exclude": ["node_modules", "**/__tests__/*", "lib"],
+    "include": ["src"]
+
+}
