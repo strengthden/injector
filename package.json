@@ -7,7 +7,7 @@
     "type": "git",
     "url": "git://github.com/strengthden/injector.git"
   },
-  "version": "0.7.0",
+  "version": "0.8.0",
   "description": "Simple injection pattern for DI",
   "main": "lib/index.js",
   "types": "lib/index.d.js",
@@ -27,13 +27,13 @@
   "author": "Strengthden",
   "license": "MIT",
   "devDependencies": {
-    "@types/jest": "^25.1.4",
-    "@types/node": "^7.0.5",
-    "@types/uuid": "^7.0.0",
-    "jest": "^25.1.0",
-    "ts-jest": "^25.2.1",
+    "@types/jest": "^25.2.1",
+    "@types/node": "^13.13.4",
+    "@types/uuid": "^7.0.3",
+    "jest": "^25.5.0",
+    "ts-jest": "^25.3.1",
     "tslint": "^5.5.0",
-    "tslint-config-standard": "^6.0.1",
-    "typescript": "^2.4.2"
+    "tslint-config-standard": "^9.0.0",
+    "typescript": "^3.8.3"
   }
 }
